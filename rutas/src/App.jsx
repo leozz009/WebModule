@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className = "container">
+    <div className = "d-flex align-items-center justify-content-cente">
       <Layout/>
         <Routes>
           <Route path = "Dashboard" element={<Dashboard />} /> 

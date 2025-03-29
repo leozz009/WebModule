@@ -1,4 +1,5 @@
 import React from 'react'
+import "../styles/Profile.module.css"
 
 export const Perfil = () => {
   return (
