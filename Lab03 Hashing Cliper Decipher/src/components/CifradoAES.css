@@ -1,0 +1,75 @@
+.aes-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    background: #f0f4f8;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
+  .output {
+    margin-top: 20px;
+  }
+  
+  .output-box {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+    font-family: monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+  }
+  
